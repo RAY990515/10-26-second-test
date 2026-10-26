@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "firewand",
+	"version": "${version}",
+	"name": "Fire Wand",
+	"description": "Adds ///wand, which gives a Fire Wand that fires a thin FLAME particle beam on right-click.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.firewand.FireWandMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
